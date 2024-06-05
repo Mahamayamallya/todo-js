@@ -1,0 +1,27 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+h1 {
+  font-size: 52px;
+}
+input[type="text"] {
+  border: 2px solid black;
+}
+.delete-todo {
+  border: none;
+  background-color: white;
+  color: red;
+}
+li {
+  list-style: none;
+  font-size: 24px;
+}
+li::before {
+  content: "";
+}
+
+.completed-task {
+  text-decoration: line-through;
+  color: grey;
+}
+.hideElement {
+  display: none;
+}
